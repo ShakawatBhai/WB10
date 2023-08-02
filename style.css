@@ -1,0 +1,38 @@
+.div1{
+    height:300px;
+    width:300px;
+    border: 2px solid black;
+}
+p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ss{
+    height:400px;
+    background-image: 
+        url(hill1.jpg),
+ url(hill2.jpg),url(hill3.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: top left,center top,top right;
+}
+.class1{
+    height:300px;
+    border: 10px dotted green;
+    background-color: #fdfbf9;
+    padding: 20px;
+    
+    background-image: url(image1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-origin: border-box;
+}
+
+.class2{
+    border: 10px dotted black;
+    background-color: #24e6b9;
+    padding: 20px;
+    background-clip:padding-box;
+}
